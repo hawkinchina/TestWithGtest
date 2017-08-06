@@ -1,7 +1,7 @@
 CC = g++
-testdir = gtest
+testdir = gmock
 LIBS = -L ./$(testdir)/lib/
-LIBS+= -lgtest
+LIBS+= -lgmock
 CFLAGS =  -lpthread
 INCLUDE= -I ./testcase/include/\
 		-I ./leetcode/include/ \
